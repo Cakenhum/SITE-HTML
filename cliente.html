@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Clientes - Site Responsivo</title>
+</head>
+<body>
+    <header class="cabecalho container">
+        <a href="index.html"><h1 class="logo">Site Responsivo</h1></a>
+        <button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <a class="btn-close"><i class="fa fa-times"></i></a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="cliente.html">Cliente</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="quemsomos.html">Quem somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <h2>Nossos Clientes</h2>
+        <p>Abaixo estão alguns dos clientes que confiaram em nossos serviços:</p>
+        <ul class="clientes-list">
+            <li><strong>Cliente 1:</strong> Uma delicia.</li>
+            <li><strong>Cliente 2</strong>:</strong> O melhor doce que comi na vida.</li>
+            <li><strong>Cliente 3:</strong> atendimente perfeito.</li>
+            <li><strong>Cliente 4:</strong> minha confeitaria favorita.</li>
+        </ul>
+        <h3>Depoimentos</h3>
+        <blockquote>
+            "O trabalho realizado pela equipe foi excepcional! Nossos resultados melhoraram significativamente." - Cliente X
+        </blockquote>
+        <blockquote>
+            "Recomendo!" - Cliente Y
+        </blockquote>
+    </main>
+    
+    <footer class="rodape container bg-gradient">
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-google"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+        </div>
+        <p class="copyright">
+            Copyright © Ítalo Nunes 2022. Todos os direitos reservados.
+        </p>
+    </footer>
+    
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").show();
+        });
+        $(".btn-close").click(function(){
+            $(".menu").hide();
+        });
+    </script>
+</body>
+</html>
